@@ -34,7 +34,7 @@ import {
               ¡Subscríbete!
             </Heading>
             <Text fontSize={'lg'} color={'gray.500'}>
-              ¡Suscribete a nuestro boletín semanal y recibe las últimas noticias directamente en tu bandeja de entrada!
+              ¡Suscríbete a nuestro boletín semanal y recibe las últimas noticias directamente en tu bandeja de entrada!
             </Text>
           </Stack>
           <Stack spacing={4} direction={{ base: 'column', md: 'row' }} w={'full'}>
