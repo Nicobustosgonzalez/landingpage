@@ -27,28 +27,18 @@ import {
                   bg: 'blue.400',
                   zIndex: -1,
                 }}>
-                Freelance
+                E-News Chile
               </Text>
               <br />{' '}
               <Text color={'blue.400'} as={'span'}>
-                Design Projects
+                Boletín
               </Text>{' '}
             </Heading>
             <Text fontSize={{ base: 'md', lg: 'lg' }} color={'gray.500'}>
-              The project board is an exclusive resource for contract work. It's
-              perfect for freelancers, agencies, and moonlighters.
+              ¡Somos el boletín informativo para emprendedores más grande de Chile! Todas las noticias que importan para tu negocio, en un solo lugar, o recíbelas directamente en tu bandeja de entrada dejándonos tu correo más abajo.
             </Text>
             <Stack direction={{ base: 'column', md: 'row' }} spacing={4}>
-              <Button
-                rounded={'full'}
-                bg={'blue.400'}
-                color={'white'}
-                _hover={{
-                  bg: 'blue.500',
-                }}>
-                Create Project
-              </Button>
-              <Button rounded={'full'}>How It Works</Button>
+             
             </Stack>
           </Stack>
         </Flex>

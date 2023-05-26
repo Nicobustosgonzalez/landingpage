@@ -2,6 +2,8 @@
 import { ChakraProvider } from '@chakra-ui/react';
 import { useState } from "react";
 import NavBar from './components/NavBar';
+import Newsletter from './components/Newsletter';
+import About from './components/Abouttext';
 
 export default function RootLayout({
   children,
@@ -14,12 +16,11 @@ export default function RootLayout({
         <ChakraProvider>
           <div>
             <NavBar/>
-            
-
           </div>
-
-
           {children}
+          <div>
+            
+          </div>
           
           </ChakraProvider>
         </body>
